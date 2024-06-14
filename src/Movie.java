@@ -77,7 +77,7 @@ class ScienceFiction extends Movie {
                 "Planet blows up");
     }
 
-    public void scienceFiction() {
+    public void watchScienceFiction() {
         System.out.println("Watching a Science Fiction!");
     }
 
