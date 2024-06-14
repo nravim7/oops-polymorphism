@@ -35,6 +35,10 @@ class Adventure extends Movie {
                 "Something bad happens");
     }
 
+    public void watchAdventure() {
+        System.out.println("Watching an Adventure!");
+    }
+
 }
 
 class Comedy extends Movie {
@@ -51,6 +55,11 @@ class Comedy extends Movie {
                 "Something even funnier happens",
                 "Happy Ending");
     }
+
+    public void watchComedy() {
+        System.out.println("Watching a Comedy!");
+    }
+
 }
 
 class ScienceFiction extends Movie {
@@ -67,5 +76,10 @@ class ScienceFiction extends Movie {
                 "Space guys chase Aliens",
                 "Planet blows up");
     }
+
+    public void scienceFiction() {
+        System.out.println("Watching a Science Fiction!");
+    }
+
 }
 
